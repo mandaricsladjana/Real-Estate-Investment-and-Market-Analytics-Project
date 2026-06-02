@@ -1,5 +1,5 @@
 # Real Estate Investment & Market Analytics Project
-![Banner](https://via.placeholder.com/1200x200/6A0DAD/FFFFFF?text=Your+Name+%7C+Portfolio)
+
 ## 👋 Welcome
 
 This is my first data analytics portfolio project, created to demonstrate practical skills in SQL, Excel, and Power BI. The goal is to show the ability to work with real-world data by cleaning, transforming, and analyzing it to generate meaningful business insights.
