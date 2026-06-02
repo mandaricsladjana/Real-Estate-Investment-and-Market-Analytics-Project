@@ -53,12 +53,14 @@ The project is divided into two main components:
 
 🔹 Data Quality Assessment
 
-📌 What was done:
+What was done:
 - Handled missing values  
 - Standardized categorical fields  
 - Removed inconsistencies  
 - Fixed data types  
-- Created clean analysis-ready dataset  
+- Created clean analysis-ready dataset
+- Identified Invalid entries
+- Visualized data quality report using Power Bi dashboard 
 
 📎 SQL Scripts:
 - [Data Cleaning Script](SQL/01_data_cleaning.sql)
@@ -83,7 +85,7 @@ To identify investment opportunities and evaluate property performance across re
 
 ---
 
-## 📈 POWER BI DASHBOARD
+## 📈 Power BI Dashboard
 
 The final analysis was visualized in Power BI.
 
@@ -116,18 +118,6 @@ Dashboard Preview:
 ### ◻ Segmentation
 - How can properties be grouped by investment potential?
 
----
-
-## 🔍 Data Quality Assessment
-
-Before analysis, data quality was evaluated:
-
-- Missing value detection  
-- Data consistency checks  
-- Validity of numerical fields  
-- Relationship checks between property values  
-
-This ensured all insights are based on reliable and clean data.
 
 ---
 
