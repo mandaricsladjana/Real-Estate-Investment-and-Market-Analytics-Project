@@ -1,5 +1,5 @@
 # Real Estate Investment & Market Analytics Project
-![mara](https://shields.io)
+
 ## 👋 Welcome
 
 This is my first data analytics portfolio project, created to demonstrate practical skills in SQL, Excel, and Power BI. The goal is to show the ability to work with real-world data by cleaning, transforming, and analyzing it to generate meaningful business insights.
@@ -11,8 +11,8 @@ The main purpose of the project is to demonstrate the ability to work with a rea
 
 ## 🔶 Tools Used
 
-- SQL (Data Cleaning & Analysis)  
-- Power BI (Dashboard & Visualization)  
+- SQL queries in SQL Server Management Studio (Data Cleaning & Analysis)  
+- Power BI (Dashboards & Visualization)  
 - GitHub (Documentation & Version Control)
 
 ---
