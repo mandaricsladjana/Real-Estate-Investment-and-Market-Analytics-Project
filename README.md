@@ -1,87 +1,153 @@
-# Real-Estate-Investment-and-Market-Analytics-Project
+# 📊 Real Estate Investment & Market Analytics Project
 
-## A Data Analytics portfolio project created to practice and showcase skills in analytical tools such as SQL, Excel, and Power BI. 
+## 👋 Welcome
 
-The main purpose of the project is to demonstrate the ability to work with real-life dataset by cleaning, transforming, and analyzing it in order to generate meaningful business insights and answer key analytical questions.
+This is my first data analytics portfolio project, created to demonstrate practical skills in SQL, Excel, and Power BI. The goal is to show the ability to work with real-world data by cleaning, transforming, and analyzing it to generate meaningful business insights.
 
-This project analyzes the Nashville Housing dataset using SQL and Power BI, combining data cleaning, property valuation analysis, city-level market performance, ROI calculations, and investment categorization to identify high-value real estate opportunities and generate actionable business insights.
+The project focuses on real estate data analysis, including property valuation, city-level market performance, ROI evaluation, and investment categorization.
+The main purpose of the project is to demonstrate the ability to work with real-life dataset by cleaning, transforming, and analyzing it in order to give meaningful business insights and answer key analytical questions.
 
-The project follows an end-to-end data workflow, starting from raw data exploration, followed by data cleaning and adjustment (handling missing values, correcting inconsistencies, and filtering invalid records), then moving into data transformation and KPI creation, and finally visualizing results in Power BI to support data-driven decision-making.
+---
 
-```markdown id="fix1"
-## Project Workflow
+## 🔶 Tools Used
 
-```mermaid
-flowchart LR
+- SQL (Data Cleaning & Analysis)  
+- Power BI (Dashboard & Visualization)  
+- GitHub (Documentation & Version Control)
 
-A[Raw Data] --> B[Data Exploration]
-B --> C[Business Questions Definition]
-C --> D[Data Quality Assessment]
-D --> E[SQL Data Cleaning]
-E --> F[KPI Development ROI Property Value City Performance]
-F --> G[Power BI Dashboard]
-G --> H[Insights & Conclusions]
+---
+
+## 📁 Data Source
+
+The dataset used in this project is the Nashville Housing dataset from Kaggle:
+https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data/data
+
+This is a large and detailed real estate dataset that, despite requiring significant cleaning, provides a very strong foundation for a first analytical project due to its real-world complexity and variety of property attributes.
+
+---
+
+## ⚙️ Project Workflow
+
+The analysis follows an end-to-end data pipeline:
+
+Raw Data → Exploration → Data Quality Assessment → SQL Data Cleaning → KPI Development → Power BI Visualization → Insights & Conclusions
+
+The workflow includes:
+
+* Data exploration and understanding structure
+* Cleaning and handling missing, duplicate, or inconsistent values
+* Transforming data for analysis
+* Defining KPIs such as ROI and property value categories
+* Building interactive dashboards in Power BI to showcase results
+
+---
+
+## 🔷 Project Structure
+
+The project is divided into two main components:
+
+* Business Analysis – focusing on property performance, pricing trends, and investment insights
+* Data Quality Assessment – ensuring the dataset is clean, consistent, and reliable for analysis
+
+---
+
+🔹 Data Quality Assessment
+
+📌 What was done:
+- Handled missing values  
+- Standardized categorical fields  
+- Removed inconsistencies  
+- Fixed data types  
+- Created clean analysis-ready dataset  
+
+📎 SQL Scripts:
+- [Data Cleaning Script](SQL/01_data_cleaning.sql)
+- [Data Quality Checks](SQL/02_data_quality.sql)
+
+📸 Screenshots:
+- Raw vs cleaned data comparison
+- Key SQL transformations
+
+---
+
+## 📊 KPI Development
+
+The following KPIs were created to support analysis:
+
+- **ROI (Return on Investment)** – profitability measure of properties  
+- **Property Value Categories** – segmentation into Low / Medium / High value  
+- **City Performance Metrics** – comparison of market strength by location  
+
+📌 Purpose:
+To identify investment opportunities and evaluate property performance across regions.
+
+---
+
+## 📈 POWER BI DASHBOARD
+
+The final analysis was visualized in Power BI.
+
+### Dashboard Pages:
+- Data Quality Overview 
+- Property Value Analysis  
+- City Performance  
+- Investment & ROI Analysis  
+
+Dashboard Preview:
+
+(screenshot coming soon)
+
+---
+
+## 📊 KEY BUSINESS QUESTIONS
+
+### ◻ Property Pricing
+- How are property prices distributed across Nashville?
+- What affects property value the most?
+
+### ◻ Market Performance
+- Which areas have the strongest property sales activity?
+- How do prices vary by location?
+
+### ◻ Investment Analysis
+- Which properties generate the highest ROI?
+- What defines a good investment property?
+
+### ◻ Segmentation
+- How can properties be grouped by investment potential?
+
+---
+
+## 🔍 Data Quality Assessment
+
+Before analysis, data quality was evaluated:
+
+- Missing value detection  
+- Data consistency checks  
+- Validity of numerical fields  
+- Relationship checks between property values  
+
+This ensured all insights are based on reliable and clean data.
+
+---
+
+## 💡 Key Insights
+
+- Certain regions show significantly higher property values  
+- ROI varies widely depending on property characteristics  
+- Data cleaning had a major impact on analysis quality  
+- High-value properties are concentrated in specific areas  
 
 
 
 
 
 
-The Project is divided into two key components: 
 
-* BUSINESS ANALYSIS/ focused on real estate and investment insights
-* DATA QUALITY ASSESMENT/ ensuring the dataset is reliable, cleaned, and in a format suitable for analysis
 
-## Data Quality Assessment Questions
 
-Before performing any analysis, the dataset was evaluated to ensure accuracy, consistency, and reliability. The following questions were used to guide the data quality assessment:
 
-### 1. Missing Data
-- Which columns contain missing or null values?
-- How significant is the amount of missing data in key fields?
-- Does missing data affect the reliability of pricing or ROI analysis?
 
-### 2. Data Consistency
-- Are there inconsistencies in categorical fields (e.g., SoldAsVacant values)?
-- Are all property records formatted consistently across the dataset?
-- Do any fields contain incorrect or unexpected values?
 
-### 3. Data Validity
-- Are there any unrealistic or invalid values (e.g., zero or negative prices)?
-- Are numerical fields (e.g., Bedrooms, YearBuilt) within logical ranges?
-- Do property values align logically (LandValue + BuildingValue ≈ TotalValue)?
 
-### 4. Data Completeness Impact
-- How does missing or inconsistent data impact KPI calculations?
-- Which variables had to be cleaned or transformed before analysis?
-- What assumptions were made during data cleaning?
-  
-## KEY BUSINESS QUESTIONS
-
-This analysis was designed to answer the following business questions related to property performance, market trends, and investment potential in the Nashville real estate market:
-
-### 5. Data Quality & Integrity
-- What is the extent of missing or inconsistent data in the dataset?
-- Which fields have the highest data quality issues?
-- How does data cleaning impact the reliability of the analysis results?
-- 
-### 1. Property Value & Pricing
-- How are property sale prices distributed across different areas of Nashville?
-- What is the relationship between land value, building value, and total property value?
-- Which property characteristics (size, bedrooms, year built) influence higher sale prices?
-
-### 2. City / Area Performance
-- Which areas or tax districts have the highest property sales activity?
-- How does average property value vary across different locations?
-- Which regions show the strongest real estate market performance?
-
-### 3. Investment Performance (ROI Analysis)
-- Which properties generate the highest estimated return on investment?
-- What is the distribution of ROI across the dataset?
-- Which property types or categories represent the best investment opportunities?
-
-### 4. Property Classification & Segmentation
-- How can properties be grouped based on investment potential (low, medium, high value)?
-- What characteristics define high-value vs low-value investment properties?
-- Are there patterns in property features that indicate strong investment potential?
 
