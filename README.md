@@ -38,6 +38,36 @@ https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data/data
 
 This is a large and detailed real estate dataset that, despite requiring significant cleaning, provides a very strong foundation for a first analytical project due to its real-world complexity and variety of property attributes.
 
+### Dataset Overview of key columns
+
+| Column | Type | Description |
+|---------|---------|---------|
+| UniqueID | FLOAT | Unique property identifier |
+| ParcelID | NVARCHAR | Property parcel reference |
+| SalePrice | FLOAT | Final sale price of the property at transaction |
+| OwnerName | NVARCHAR | Name of the current or registered property owner |
+| Acreage | FLOAT | Size of the property in acres |
+| LandValue | FLOAT | Assessed value of the land only (excluding structures) |
+| BuildingValue | FLOAT |  Assessed value of buildings/structures on the property |
+| TotalValue | FLOAT | Total assessed property value (land + building) |
+
+```text
+Raw Dataset
+    ↓
+Data Exploration
+    ↓
+Data Cleaning & Validation
+    ↓
+Data Quality Analysis
+    ↓
+SQL KPI Creation
+    ↓
+Power BI Data Model
+    ↓
+Dashboard Development
+    ↓
+Insights & Recommendations
+```
 ---
 
 ## ⚙️ Project Workflow
