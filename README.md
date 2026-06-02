@@ -19,6 +19,16 @@ The main purpose of the project is to demonstrate the ability to work with a rea
 - Power BI (Dashboards & Visualization)  
 - GitHub (Documentation & Version Control)
 
+### SQL Skills Demonstrated
+
+* SELECT, WHERE, GROUP BY
+* CASE statements
+* Aggregate functions
+* Common Table Expressions (CTEs)
+* Window functions
+* Data quality validation
+* Data preparation for BI reporting (VIEWS)
+
 ---
 
 ## 📁 Data Source
