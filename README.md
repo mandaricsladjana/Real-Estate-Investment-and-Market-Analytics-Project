@@ -1,11 +1,11 @@
-# 📊 Real Estate Investment & Market Analytics Project
+# Real Estate Investment & Market Analytics Project
 
 ## 👋 Welcome
 
 This is my first data analytics portfolio project, created to demonstrate practical skills in SQL, Excel, and Power BI. The goal is to show the ability to work with real-world data by cleaning, transforming, and analyzing it to generate meaningful business insights.
 
 The project focuses on real estate data analysis, including property valuation, city-level market performance, ROI evaluation, and investment categorization.
-The main purpose of the project is to demonstrate the ability to work with real-life dataset by cleaning, transforming, and analyzing it in order to give meaningful business insights and answer key analytical questions.
+The main purpose of the project is to demonstrate the ability to work with a real-life dataset by cleaning, transforming, and analyzing it in order to give meaningful business insights and answer key analytical questions.
 
 ---
 
@@ -53,51 +53,22 @@ The project is divided into two main components:
 
 🔹 Data Quality Assessment
 
-What was done:
+▫ What was done:
 - Handled missing values  
 - Standardized categorical fields  
 - Removed inconsistencies  
 - Fixed data types  
 - Created clean analysis-ready dataset
 - Identified Invalid entries
-- Visualized data quality report using Power Bi dashboard 
+- Visualized data quality report using Power BI dashboard 
 
-📎 SQL Scripts:
+▫ SQL Scripts:
 - [Data Cleaning Script](SQL/01_data_cleaning.sql)
 - [Data Quality Checks](SQL/02_data_quality.sql)
 
-📸 Screenshots:
+(Screenshots coming soon):
 - Raw vs cleaned data comparison
 - Key SQL transformations
-
----
-
-## 📊 KPI Development
-
-The following KPIs were created to support analysis:
-
-- **ROI (Return on Investment)** – profitability measure of properties  
-- **Property Value Categories** – segmentation into Low / Medium / High value  
-- **City Performance Metrics** – comparison of market strength by location  
-
-📌 Purpose:
-To identify investment opportunities and evaluate property performance across regions.
-
----
-
-## 📈 Power BI Dashboard
-
-The final analysis was visualized in Power BI.
-
-### Dashboard Pages:
-- Data Quality Overview 
-- Property Value Analysis  
-- City Performance  
-- Investment & ROI Analysis  
-
-Dashboard Preview:
-
-(screenshot coming soon)
 
 ---
 
@@ -118,15 +89,39 @@ Dashboard Preview:
 ### ◻ Segmentation
 - How can properties be grouped by investment potential?
 
+---
+  
+## 📊 KPI Development
+
+The following KPIs were created to support analysis:
+
+- **ROI (Return on Investment)** – profitability measure of properties  
+- **Property Value Categories** – segmentation into Low / Medium / High value  
+- **City Performance Metrics** – comparison of market strength by location  
+
+▫ Purpose:
+To identify investment opportunities and evaluate property performance across regions.
 
 ---
 
-## 💡 Key Insights
+## 📈 Power BI Dashboard
 
-- Certain regions show significantly higher property values  
-- ROI varies widely depending on property characteristics  
-- Data cleaning had a major impact on analysis quality  
-- High-value properties are concentrated in specific areas  
+The final stage of this project was the development of an interactive Power BI dashboard to provide a clear overview of property performance, market trends, and investment opportunities across the Nashville real estate market. It allows viewers to explore the data dynamically through filters and visual interactions, enabling deeper analysis of specific regions, property types, and value ranges. These visualisations have played a key role in generating final conclusions from the analysis.
+
+### Dashboard Pages:
+- Data Quality Overview 
+- Property Value Analysis  
+- City Performance  
+- Investment & ROI Analysis  
+
+Dashboard Preview:
+
+(screenshot coming soon)
+
+---
+
+## 🔷 Key Insights
+
 
 
 
