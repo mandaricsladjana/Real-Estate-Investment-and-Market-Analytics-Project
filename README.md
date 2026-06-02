@@ -13,7 +13,7 @@ The main purpose of the project is to demonstrate the ability to work with a rea
 
 ---
 
-## 🔶 Tools Used
+## 🔷 Tools Used
 
 - SQL queries in SQL Server Management Studio (Data Cleaning & Analysis)  
 - Power BI (Dashboards & Visualization)  
@@ -95,7 +95,7 @@ The project is divided into two main components:
 
 ---
   
-## 📊 KPI Development
+## 📈 KPI Development
 
 The following KPIs were created to support analysis:
 
@@ -108,7 +108,7 @@ To identify investment opportunities and evaluate property performance across re
 
 ---
 
-## 📈 Power BI Dashboard
+## 📊 Power BI Dashboard
 
 The final stage of this project was the development of an interactive Power BI dashboard to provide a clear overview of property performance, market trends, and investment opportunities across the Nashville real estate market. It allows viewers to explore the data dynamically through filters and visual interactions, enabling deeper analysis of specific regions, property types, and value ranges. These visualisations have played a key role in generating final conclusions from the analysis.
 
