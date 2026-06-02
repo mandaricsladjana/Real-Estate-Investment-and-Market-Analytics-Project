@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/banner.png" alt="Portfolio Banner" width="100%">
+</p>
+
 # Real Estate Investment & Market Analytics Project
 
 ## 👋 Welcome
