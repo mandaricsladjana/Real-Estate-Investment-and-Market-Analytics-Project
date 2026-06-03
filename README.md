@@ -51,6 +51,13 @@ This is a large and detailed real estate dataset that, despite requiring signifi
 | BuildingValue | FLOAT |  Assessed value of buildings/structures on the property |
 | TotalValue | FLOAT | Total assessed property value (land + building) |
 
+
+---
+
+## ⚙️ Project Workflow
+
+The analysis follows an end-to-end data pipeline:
+
 ```text
 Raw Dataset
     ↓
@@ -58,29 +65,20 @@ Data Exploration
     ↓
 Data Cleaning & Validation
     ↓
-Data Quality Analysis
+KPI & Visualization Planning
     ↓
-SQL KPI Creation
+SQL queries
     ↓
-Power BI Data Model
-    ↓
-Dashboard Development
+Power Bi Dashboard Development
     ↓
 Insights & Recommendations
 ```
----
-
-## ⚙️ Project Workflow
-
-The analysis follows an end-to-end data pipeline:
-
-Raw Data → Exploration → Data Quality Assessment → SQL Data Cleaning → KPI Development → Power BI Visualization → Insights & Conclusions
-
 The workflow includes:
 
 * Data exploration and understanding structure
 * Cleaning and handling missing, duplicate, or inconsistent values
 * Transforming data for analysis
+* Deciding business questions to answer
 * Defining KPIs such as ROI and property value categories
 * Building interactive dashboards in Power BI to showcase results
 
