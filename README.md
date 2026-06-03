@@ -95,7 +95,7 @@ The project is divided into two main components:
 
 🔹 Data Quality Assessment
 
-▫ What was done:
+What was done:
 - Handled missing values  
 - Standardized categorical fields  
 - Removed inconsistencies  
@@ -104,7 +104,7 @@ The project is divided into two main components:
 - Identified Invalid entries
 - Visualized data quality report using Power BI dashboard 
 
-▫ SQL Scripts:
+SQL Scripts:
 - [Data Cleaning Script](SQL/01_data_cleaning.sql)
 - [Data Quality Checks](SQL/02_data_quality.sql)
 
