@@ -2,11 +2,11 @@
   <img src="assets/images/bannernew.png" alt="Portfolio Banner" width="100%">
 </p>
 
-# Real Estate Investment & Market Analytics Project
+# Real Estate Investment & Market Analytics Project (IN PROGRESS)
 
 ## 👋 Welcome
 
-This is my first data analytics portfolio project, created to demonstrate practical skills in SQL, Excel, and Power BI. The goal is to show the ability to work with real-world data by cleaning, transforming, and analyzing it to generate meaningful business insights.
+This is my first data analytics portfolio project, created to demonstrate practical skills in SQL and Power BI. The goal is to show the ability to work with real-world data by cleaning, transforming, and analyzing it to generate meaningful business insights.
 
 The project focuses on real estate data analysis, including property valuation, city-level market performance, ROI evaluation, and investment categorization.
 The main purpose of the project is to demonstrate the ability to work with a real-life dataset by cleaning, transforming, and analyzing it in order to give meaningful business insights and answer key analytical questions.
@@ -18,6 +18,9 @@ The main purpose of the project is to demonstrate the ability to work with a rea
 - SQL queries in SQL Server Management Studio (Data Cleaning & Analysis)  
 - Power BI (Dashboards & Visualization)  
 - GitHub (Documentation & Version Control)
+- notion.com (KPI & visualization Planner Template /Downloadable/ ) - link
+- medium.com (Article case study documenting) - link
+- lucidcharts.com (Process flow visualization)
 
 ### SQL Skills Demonstrated
 
@@ -63,13 +66,13 @@ Raw Dataset
     ↓
 Data Exploration
     ↓
-Data Cleaning & Validation
-    ↓
 KPI & Visualization Planning
     ↓
-SQL queries
+SQL Data Cleaning & Validation
     ↓
-Power Bi Dashboard Development
+SQL KPI Data Preparation
+    ↓
+Power BI Dashboard Development
     ↓
 Insights & Recommendations
 ```
