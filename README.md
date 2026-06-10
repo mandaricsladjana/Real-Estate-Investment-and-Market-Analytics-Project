@@ -168,7 +168,25 @@ Dashboard Preview:
 ## 🔷 Key Insights
 
 
+<script>
+window.TallyConfig = {
+  "formId": "81rvjO",
+  "popup": {
+    "emoji": {
+      "text": "👋",
+      "animation": "wave"
+    },
+    "open": {
+      "trigger": "time",
+      "ms": 13000
+    },
+    "autoClose": 3000,
+    "doNotShowAfterSubmit": true
+  }
+};
+</script>
 
+<script async src="https://tally.so/widgets/embed.js"></script>
 
 
 
