@@ -2,29 +2,6 @@
   <img src="assets/images/bannernew.png" alt="Portfolio Banner" width="100%">
 </p>
 
-...
-<script>
-window.TallyConfig = {
-  formId: "81rvjO",
-  popup: {
-    emoji: {
-      text: "",
-      animation: "wave"
-    },
-    open: {
-      trigger: "time",
-      ms: 6000
-    },
-    hideTitle: true,
-    doNotShowAfterSubmit: true
-  }
-};
-</script>
-
-<script async src="https://tally.so/widgets/embed.js"></script>
-</body>
-</html>
-
 # Real Estate Investment & Market Analytics Project (IN PROGRESS)
 
 ## 👋 Welcome
