@@ -20,8 +20,6 @@ window.TallyConfig = {
 };
 </script>
 
-<script async src="https://tally.so/widgets/embed.js"></script>
-
 # Real Estate Investment & Market Analytics Project (IN PROGRESS)
 
 ## 👋 Welcome
