@@ -2,6 +2,26 @@
   <img src="assets/images/bannernew.png" alt="Portfolio Banner" width="100%">
 </p>
 
+<script>
+window.TallyConfig = {
+  "formId": "81rvjO",
+  "popup": {
+    "emoji": {
+      "text": "",
+      "animation": "wave"
+    },
+    "open": {
+      "trigger": "time",
+      "ms": 6000
+    },
+    "hideTitle": true,
+    "doNotShowAfterSubmit": true
+  }
+};
+</script>
+
+<script async src="https://tally.so/widgets/embed.js"></script>
+
 # Real Estate Investment & Market Analytics Project (IN PROGRESS)
 
 ## 👋 Welcome
@@ -168,25 +188,6 @@ Dashboard Preview:
 ## 🔷 Key Insights
 
 
-<script>
-window.TallyConfig = {
-  "formId": "81rvjO",
-  "popup": {
-    "emoji": {
-      "text": "👋",
-      "animation": "wave"
-    },
-    "open": {
-      "trigger": "time",
-      "ms": 13000
-    },
-    "autoClose": 3000,
-    "doNotShowAfterSubmit": true
-  }
-};
-</script>
-
-<script async src="https://tally.so/widgets/embed.js"></script>
 
 
 
