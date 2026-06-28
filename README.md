@@ -1,8 +1,8 @@
 # Real Estate Investment & Market Analytics Project
 
-## 👋 Welcome
+## 👋 Hello and Welcome
 
-This is my first data analytics portfolio project, created to demonstrate practical skills in SQL, Excel, and Power BI. The goal is to show the ability to work with real-world data by cleaning, transforming, and analyzing it to generate meaningful business insights.
+This is my first data analytics portfolio project, where I wanted to show the ways I use SQL, Azure Cloud, and Power BI in my work. I tried to use a database closely resembling real-world data and to recreate the cleaning, transforming, and analyzing process, showing all the steps + problems you can encounter with solutions.
 
 The project focuses on real estate data analysis, including property valuation, city-level market performance, ROI evaluation, and investment categorization.
 The main purpose of the project is to demonstrate the ability to work with a real-life dataset by cleaning, transforming, and analyzing it in order to give meaningful business insights and answer key analytical questions.
