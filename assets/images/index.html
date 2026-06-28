@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============================================================
+    PRIMARY META TAGS
+    - Title and description are critical for ATS and SEO
+    - Keep description under 160 chars, keyword-rich
+  ============================================================ -->
+  <title>Neil Angelo Martinez | Data Analyst · BI Developer · Quality Engineer</title>
+  <meta name="title" content="Neil Angelo Martinez | Data Analyst · BI Developer · Quality Engineer">
+  <meta name="description" content="Data Analyst and BI Developer with expertise in Power BI, SQL, Python, and Azure. Transitioning into advanced analytics and data engineering. View projects, certifications, and experience.">
+  <meta name="keywords" content="Data Analyst, Business Intelligence, Power BI, SQL, Python, Azure, Data Engineering, Quality Engineer, Portfolio, Neil Martinez">
+  <meta name="author" content="Neil Angelo Martinez">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph (LinkedIn/social previews) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://neilangelomartinez.github.io/">
+  <meta property="og:title" content="Neil Angelo Martinez | Data Analyst · BI Developer">
+  <meta property="og:description" content="End-to-end analytics professional: Power BI, SQL, Python, Azure. Building data solutions that drive business decisions.">
+  <meta property="og:image" content="./assets/images/hero-banner.jpg">
+
+  <!-- Favicon -->
+  <link href="./assets/images/favicon.png" rel="icon">
+  <link href="./assets/images/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- ============================================================
+    FONTS
+    - Inter: utility / body — neutral, highly legible, very readable at small sizes
+    - Space Grotesk: display — geometric, technical feel that suits data/tech roles
+    Paired deliberately: Space Grotesk's angularity signals precision;
+    Inter ensures body copy never fatigues the eye
+  ============================================================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Preload critical image -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- ============================================================
+    PRELOADER
+    Shown while page assets load; dismissed by JS once ready
+  ============================================================ -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <span class="preloader-text">NM</span>
+      <div class="preloader-bar"></div>
+    </div>
+  </div>
+
+
+  <!-- ============================================================
+    HEADER / NAV
+    - Sticky on scroll
+    - Hamburger for mobile
+    - Active link tracked by IntersectionObserver in JS
+  ============================================================ -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+
+      <!-- Logo / monogram -->
+      <a href="#home" class="logo" aria-label="Neil Martinez home">
+        <span class="logo-mark">NM</span>
+        <span class="logo-text">Neil Martinez</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="navbar" id="navbar" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home"          class="nav-link" data-nav="home">Home</a></li>
+          <li><a href="#about"         class="nav-link" data-nav="about">About</a></li>
+          <li><a href="#skills"        class="nav-link" data-nav="skills">Skills</a></li>
+          <li><a href="#projects"      class="nav-link" data-nav="projects">Projects</a></li>
+          <li><a href="#certifications"class="nav-link" data-nav="certifications">Certs</a></li>
+          <li><a href="#experience"    class="nav-link" data-nav="experience">Experience</a></li>
+          <li><a href="#contact"       class="nav-link" data-nav="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile hamburger -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbar">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- Mobile nav drawer -->
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+
+  <main id="main-content">
+
+    <!-- ============================================================
+      HERO SECTION
+      Lead with what the person IS and DOES — not "aspiring".
+      The headline is a positioning statement recruiters scan in 3s.
+    ============================================================ -->
+    <section id="home" class="hero section" aria-label="Hero">
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+
+          <!-- Eyebrow: context before the name -->
+          <p class="hero-eyebrow">
+            <span class="eyebrow-dot" aria-hidden="true"></span>
+            Available for new opportunities
+          </p>
+
+          <h1 class="hero-title">
+            Neil<br>
+            <span class="hero-title-accent">Angelo</span><br>
+            Martinez
+          </h1>
+
+          <!-- Role tags — reads well by ATS and humans -->
+          <div class="hero-roles" aria-label="Professional roles">
+            <span class="role-tag">Data Analyst</span>
+            <span class="role-sep" aria-hidden="true">·</span>
+            <span class="role-tag">BI Developer</span>
+            <span class="role-sep" aria-hidden="true">·</span>
+            <span class="role-tag">Quality Engineer</span>
+          </div>
+
+          <p class="hero-bio">
+            I turn raw data into business decisions. With hands-on experience in
+            <strong>Power BI</strong>, <strong>SQL</strong>, <strong>Python</strong>, and
+            <strong>Azure</strong>, I build end-to-end analytics solutions — from data
+            pipeline to executive dashboard. Currently transitioning into advanced analytics
+            and data engineering.
+          </p>
+
+          <!-- Stat bar — three numbers that prove value at a glance -->
+          <div class="hero-stats" aria-label="Key statistics">
+            <div class="stat">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Projects delivered</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat">
+              <span class="stat-number">8+</span>
+              <span class="stat-label">Certifications earned</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat">
+              <!-- PLACEHOLDER: update with your actual QA experience years -->
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Years in QA / analytics</span>
+            </div>
+          </div>
+
+          <!-- CTAs -->
+          <div class="hero-ctas">
+            <a href="https://drive.google.com/file/d/12D-ea9IYrqjMRQL-lxszCpNTBvrejV8t/view?usp=sharing"
+               target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV
+            </a>
+            <a href="#projects" class="btn btn-ghost">View Projects</a>
+          </div>
+
+          <!-- Social links row -->
+          <div class="hero-socials" aria-label="Social links">
+            <a href="https://bit.ly/neilmartinez-linkedin" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://bit.ly/neilmartinez-github" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+            <a href="https://bit.ly/neilmartinez-medium" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Medium">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+            </a>
+            <a href="mailto:neilangelomartinez@gmail.com" class="social-icon" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Hero image -->
+        <div class="hero-image-wrap">
+          <div class="hero-image-frame" aria-hidden="true">
+            <img src="./assets/images/hero-banner.jpg"
+                 alt="Neil Angelo Martinez — Data Analyst and BI Developer"
+                 class="hero-image"
+                 width="600" height="700"
+                 loading="eager">
+            <!-- Decorative data-viz motif overlay -->
+            <div class="hero-image-deco" aria-hidden="true"></div>
+          </div>
+          <!-- Floating chip cards — convey expertise at a glance -->
+          <div class="hero-chip hero-chip-1" aria-hidden="true">
+            <span class="chip-icon">📊</span> Power BI Expert
+          </div>
+          <div class="hero-chip hero-chip-2" aria-hidden="true">
+            <span class="chip-icon">🗃️</span> SQL & Azure
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Scroll cue -->
+      <a href="#about" class="scroll-cue" aria-label="Scroll to about section">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+      </a>
+    </section>
+
+
+    <!-- ============================================================
+      ABOUT SECTION
+      Narrative + quick-scan facts. Updated to sound like a senior
+      practitioner, not a student — "I turn data into decisions."
+    ============================================================ -->
+    <section id="about" class="section about-section" aria-labelledby="about-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <p class="section-eyebrow">Who I am</p>
+          <h2 class="section-title" id="about-heading">Data analyst by craft,<br> engineer by ambition</h2>
+        </div>
+
+        <div class="about-grid">
+
+          <div class="about-text">
+            <p>
+              I'm Neil Angelo Martinez, a Data Analyst and BI Developer based in the Philippines,
+              with a background in Quality Engineering. I started my analytics journey in late 2022
+              and have since built a track record of delivering dashboards, SQL pipelines, and
+              Python models that solve real business problems — not just look good in a slide deck.
+            </p>
+            <p>
+              My QA background gives me a discipline most analysts lack: I validate data at every
+              stage, write reproducible processes, and document decisions so teams can maintain
+              what I build. I believe <em>trustworthy data</em> is the foundation of good analysis.
+            </p>
+            <p>
+              Right now I'm deepening my skills in <strong>Azure Data Engineering</strong>,
+              <strong>dbt</strong>, and <strong>cloud-native pipelines</strong> — working toward
+              a role where I can own the full data stack, from ingestion to insight.
+            </p>
+
+            <!-- Quick-scan fact row — recruiters love this -->
+            <div class="about-facts">
+              <div class="fact">
+                <span class="fact-label">Based in</span>
+                <span class="fact-value">Philippines 🇵🇭</span>
+              </div>
+              <div class="fact">
+                <span class="fact-label">Open to</span>
+                <span class="fact-value">Remote · Hybrid</span>
+              </div>
+              <div class="fact">
+                <span class="fact-label">Focus area</span>
+                <span class="fact-value">Analytics → Data Engineering</span>
+              </div>
+            </div>
+
+            <div class="about-ctas">
+              <a href="https://bit.ly/neilmartinez-linkedin" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Connect on LinkedIn</a>
+              <a href="#contact" class="btn btn-ghost">Get in touch</a>
+            </div>
+          </div>
+
+          <!-- Education timeline (right column) -->
+          <div class="about-education">
+            <h3 class="subsection-title">Education</h3>
+            <div class="timeline">
+
+              <!-- PLACEHOLDER: Add your formal degree here -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-body">
+                  <p class="timeline-date"><!-- [PLACEHOLDER] e.g. 2016 – 2020 --></p>
+                  <h4 class="timeline-title"><!-- [PLACEHOLDER] Bachelor of Science in [Your Degree] --></h4>
+                  <p class="timeline-org"><!-- [PLACEHOLDER] University Name --></p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-body">
+                  <p class="timeline-date">Oct 2022 – Jan 2023</p>
+                  <h4 class="timeline-title">Data Analytics Core + Advanced Track</h4>
+                  <p class="timeline-org">Refocus Digital Academy</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-body">
+                  <p class="timeline-date">Jan 2023</p>
+                  <h4 class="timeline-title">Advanced Data Analytics</h4>
+                  <p class="timeline-org">Bayan Academy · Supported by J.P. Morgan</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      SKILLS SECTION
+      Grouped by domain instead of a single progress-bar list.
+      Progress bars can backfire (why is Python only 70%?).
+      Tag-cloud approach is more recruiter-friendly and ATS-safe.
+    ============================================================ -->
+    <section id="skills" class="section skills-section" aria-labelledby="skills-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <p class="section-eyebrow">Technical toolkit</p>
+          <h2 class="section-title" id="skills-heading">Skills &amp; Technologies</h2>
+        </div>
+
+        <div class="skills-grid">
+
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <span class="skill-icon" aria-hidden="true">
+                <!-- Chart icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </span>
+              <h3 class="skill-category-name">Business Intelligence</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag-primary">Power BI</span>
+              <span class="skill-tag">DAX</span>
+              <span class="skill-tag">Power Query (M)</span>
+              <span class="skill-tag">Data Modeling</span>
+              <span class="skill-tag">Microsoft Excel</span>
+              <span class="skill-tag">Tableau</span>
+              <span class="skill-tag">NovyPro</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </span>
+              <h3 class="skill-category-name">Data &amp; SQL</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag-primary">PostgreSQL</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">SQL Server</span>
+              <span class="skill-tag">BigQuery</span>
+              <span class="skill-tag">dbt</span>
+              <span class="skill-tag">Data Warehousing</span>
+              <span class="skill-tag">ETL / ELT</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </span>
+              <h3 class="skill-category-name">Python &amp; Analytics</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag-primary">Python</span>
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">NumPy</span>
+              <span class="skill-tag">Matplotlib / Seaborn</span>
+              <span class="skill-tag">Scikit-learn</span>
+              <span class="skill-tag">Jupyter Notebooks</span>
+              <span class="skill-tag">Kaggle</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+              </span>
+              <h3 class="skill-category-name">Cloud &amp; Data Engineering</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag-primary">Microsoft Azure</span>
+              <span class="skill-tag">Azure Data Factory</span>
+              <span class="skill-tag">Azure Synapse</span>
+              <span class="skill-tag">Power Platform</span>
+              <span class="skill-tag">Git / GitHub</span>
+              <!-- PLACEHOLDER: Add more as you learn them -->
+              <span class="skill-tag skill-tag-learning">Apache Spark ↗</span>
+              <span class="skill-tag skill-tag-learning">Databricks ↗</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+              </span>
+              <h3 class="skill-category-name">Quality &amp; Process</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag-primary">QA Engineering</span>
+              <!-- PLACEHOLDER: Add specific QA tools you use -->
+              <span class="skill-tag">Test Planning</span>
+              <span class="skill-tag">Data Validation</span>
+              <span class="skill-tag">Documentation</span>
+              <span class="skill-tag">Root Cause Analysis</span>
+              <span class="skill-tag">Process Improvement</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+              </span>
+              <h3 class="skill-category-name">Soft Skills</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Stakeholder Communication</span>
+              <span class="skill-tag">Data Storytelling</span>
+              <span class="skill-tag">Problem Decomposition</span>
+              <span class="skill-tag">Self-directed Learning</span>
+              <span class="skill-tag">Cross-functional Collaboration</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Legend for tag types -->
+        <div class="skills-legend" aria-label="Skill tag legend">
+          <span class="legend-item"><span class="skill-tag skill-tag-primary legend-swatch">Core</span> Proven in projects</span>
+          <span class="legend-item"><span class="skill-tag legend-swatch">Standard</span> Regularly used</span>
+          <span class="legend-item"><span class="skill-tag skill-tag-learning legend-swatch">Learning ↗</span> Currently developing</span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      PROJECTS SECTION
+      Filterable by technology category.
+      Each card shows: title, problem, tech stack, and links.
+      Expandable modal shows the full case study.
+    ============================================================ -->
+    <section id="projects" class="section projects-section" aria-labelledby="projects-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <p class="section-eyebrow">Case studies</p>
+          <h2 class="section-title" id="projects-heading">Projects &amp; Work</h2>
+          <p class="section-desc">End-to-end analytics projects — from business problem to deployed solution.</p>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="filter-tabs" role="tablist" aria-label="Filter projects by technology">
+          <button class="filter-tab active" data-filter="all"     role="tab" aria-selected="true">All</button>
+          <button class="filter-tab"        data-filter="powerbi" role="tab" aria-selected="false">Power BI</button>
+          <button class="filter-tab"        data-filter="sql"     role="tab" aria-selected="false">SQL</button>
+          <button class="filter-tab"        data-filter="python"  role="tab" aria-selected="false">Python</button>
+          <button class="filter-tab"        data-filter="excel"   role="tab" aria-selected="false">Excel</button>
+          <button class="filter-tab"        data-filter="azure"   role="tab" aria-selected="false">Azure</button>
+        </div>
+
+        <!-- Project cards grid -->
+        <div class="projects-grid" id="projectsGrid">
+
+          <!-- ─── PROJECT 1 ─── -->
+          <article class="project-card" data-category="python" data-project="1">
+            <div class="project-card-image">
+              <img src="./assets/images/portfolio11.png"
+                   alt="Store Sales Time Series Forecasting chart screenshot"
+                   loading="lazy" width="800" height="450">
+              <div class="project-card-overlay">
+                <button class="btn btn-small" data-open-project="1">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category-tag">Python · ML</span>
+                <span class="project-platform">Kaggle</span>
+              </div>
+              <h3 class="project-title">Store Sales – Time Series Forecasting</h3>
+              <p class="project-problem">
+                <strong>Business problem:</strong> Predict future store sales to optimize inventory and reduce waste across a retail chain.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Pandas</span>
+                <span class="tech-pill">Scikit-learn</span>
+                <span class="tech-pill">ARIMA</span>
+              </div>
+              <div class="project-links">
+                <a href="https://www.kaggle.com/code/neilangelomartinez/store-sales-time-series-forecasting" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Kaggle Notebook
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─── PROJECT 2 ─── -->
+          <article class="project-card" data-category="python" data-project="2">
+            <div class="project-card-image">
+              <img src="./assets/images/portfolio10.png"
+                   alt="Customer Mall Segmentation clustering visualization"
+                   loading="lazy" width="800" height="450">
+              <div class="project-card-overlay">
+                <button class="btn btn-small" data-open-project="2">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category-tag">Python · ML</span>
+                <span class="project-platform">Medium</span>
+              </div>
+              <h3 class="project-title">Customer Mall Segmentation &amp; Clustering</h3>
+              <p class="project-problem">
+                <strong>Business problem:</strong> Identify distinct customer groups to help a marketing team allocate spend effectively.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">K-Means</span>
+                <span class="tech-pill">Seaborn</span>
+                <span class="tech-pill">Pandas</span>
+              </div>
+              <div class="project-links">
+                <a href="https://medium.com/@neilangelomartinez/customer-mall-segmentation-and-clustering-using-python-8057449f307a" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Read on Medium
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─── PROJECT 3 ─── -->
+          <article class="project-card" data-category="powerbi" data-project="3">
+            <div class="project-card-image">
+              <img src="./assets/images/portfolio9.png"
+                   alt="NYPD Arrest Data Power BI dashboard screenshot"
+                   loading="lazy" width="800" height="450">
+              <div class="project-card-overlay">
+                <button class="btn btn-small" data-open-project="3">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category-tag">Power BI</span>
+                <span class="project-platform">Medium</span>
+              </div>
+              <h3 class="project-title">NYPD Arrest Data 2022 Analysis</h3>
+              <p class="project-problem">
+                <strong>Business problem:</strong> Surface crime patterns and demographic trends to guide resource allocation decisions.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Power BI</span>
+                <span class="tech-pill">DAX</span>
+                <span class="tech-pill">Power Query</span>
+              </div>
+              <div class="project-links">
+                <a href="https://medium.com/@neilangelomartinez/nypd-arrest-data-d4fc3a0501cb" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Read on Medium
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─── PROJECT 4 ─── -->
+          <article class="project-card" data-category="powerbi" data-project="4">
+            <div class="project-card-image">
+              <img src="./assets/images/portfolio8.png"
+                   alt="PhoneNow Churn Analysis dashboard"
+                   loading="lazy" width="800" height="450">
+              <div class="project-card-overlay">
+                <button class="btn btn-small" data-open-project="4">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category-tag">Power BI</span>
+                <span class="project-platform">NovyPro · PwC</span>
+              </div>
+              <h3 class="project-title">PhoneNow Churn Analysis</h3>
+              <p class="project-problem">
+                <strong>Business problem:</strong> Identify at-risk telecom customers before they churn and quantify revenue impact.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Power BI</span>
+                <span class="tech-pill">DAX</span>
+                <span class="tech-pill">Churn Modeling</span>
+              </div>
+              <div class="project-links">
+                <a href="https://www.novypro.com/project/pwc-churn-analysis" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Live Dashboard
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─── PROJECT 5 ─── -->
+          <article class="project-card" data-category="powerbi" data-project="5">
+            <div class="project-card-image">
+              <img src="./assets/images/portfolio7.png"
+                   alt="Supermarket Sales Power BI Dashboard"
+                   loading="lazy" width="800" height="450">
+              <div class="project-card-overlay">
+                <button class="btn btn-small" data-open-project="5">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category-tag">Power BI</span>
+                <span class="project-platform">Medium</span>
+              </div>
+              <h3 class="project-title">Supermarket Sales Dashboard</h3>
+              <p class="project-problem">
+                <strong>Business problem:</strong> Give retail management a single-pane view of revenue, margins, and customer segments.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Power BI</span>
+                <span class="tech-pill">DAX</span>
+                <span class="tech-pill">Data Modeling</span>
+              </div>
+              <div class="project-links">
+                <a href="https://medium.com/@neilangelomartinez/supermarket-sales-dashboard-6a24fc6222cb" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Read on Medium
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─── PROJECT 6 ─── -->
+          <article class="project-card" data-category="powerbi" data-project="6">
+            <div class="project-card-image">
+              <img src="./assets/images/portfolio6.png"
+                   alt="Call Centre Trends Power BI dashboard"
+                   loading="lazy" width="800" height="450">
+              <div class="project-card-overlay">
+                <button class="btn btn-small" data-open-project="6">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category-tag">Power BI</span>
+                <span class="project-platform">PwC Switzerland</span>
+              </div>
+              <h3 class="project-title">Call Centre Trends: Customer &amp; Agent Behavior</h3>
+              <p class="project-problem">
+                <strong>Business problem:</strong> Help a call centre manager understand satisfaction drivers and SLA compliance.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Power BI</span>
+                <span class="tech-pill">KPI Design</span>
+                <span class="tech-pill">DAX</span>
+              </div>
+              <div class="project-links">
+                <a href="https://medium.com/@neilangelomartinez/call-centre-trends-visualising-customer-and-agent-behavior-778785d2eeb0" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Read on Medium
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─── PROJECT 7 ─── -->
+          <article class="project-card" data-category="sql" data-project="7">
+            <div class="project-card-image">
+              <img src="./assets/images/portfolio1.png"
+                   alt="Cyclistic Bike Sharing SQL analysis"
+                   loading="lazy" width="800" height="450">
+              <div class="project-card-overlay">
+                <button class="btn btn-small" data-open-project="7">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category-tag">SQL</span>
+                <span class="project-platform">Google · Capstone</span>
+              </div>
+              <h3 class="project-title">Cyclistic Bike-Share Analysis</h3>
+              <p class="project-problem">
+                <strong>Business problem:</strong> Determine how casual and member riders differ to inform a conversion marketing campaign.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">SQL</span>
+                <span class="tech-pill">PostgreSQL</span>
+                <span class="tech-pill">Data Cleaning</span>
+              </div>
+              <div class="project-links">
+                <a href="https://medium.com/@neilangelomartinez/cyclistic-bike-sharing-analysis-using-sql-1fb2e85864ce" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Read on Medium
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─── PROJECT 8 ─── -->
+          <article class="project-card" data-category="excel" data-project="8">
+            <div class="project-card-image">
+              <img src="./assets/images/portfolio3.png"
+                   alt="Accenture Social Buzz Excel analysis"
+                   loading="lazy" width="800" height="450">
+              <div class="project-card-overlay">
+                <button class="btn btn-small" data-open-project="8">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category-tag">Excel</span>
+                <span class="project-platform">Accenture · Forage</span>
+              </div>
+              <h3 class="project-title">Accenture – Social Buzz Content Analysis</h3>
+              <p class="project-problem">
+                <strong>Business problem:</strong> Identify the top 5 content categories for a high-growth social media startup to guide their IPO strategy.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Excel</span>
+                <span class="tech-pill">Data Cleaning</span>
+                <span class="tech-pill">Pivot Tables</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/neilangelomartinez/Accenture-data-analytics-virtual-program" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─── PLACEHOLDER PROJECT: Azure ─── -->
+          <article class="project-card project-card-placeholder" data-category="azure" data-project="placeholder-azure">
+            <div class="project-card-image project-card-placeholder-img">
+              <div class="placeholder-content">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                <p>Azure Project Coming Soon</p>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category-tag">Azure · Data Engineering</span>
+              </div>
+              <h3 class="project-title"><!-- [PLACEHOLDER] Azure Data Pipeline Project --></h3>
+              <p class="project-problem">
+                <!-- [PLACEHOLDER] Describe the business problem this project solved -->
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Azure Data Factory</span>
+                <span class="tech-pill">Azure Synapse</span>
+                <span class="tech-pill">SQL</span>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /projects-grid -->
+
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      PROJECT MODAL — Case Study Detail View
+      Opened when "View Case Study" is clicked.
+      Fill in the template for each project.
+    ============================================================ -->
+    <div class="modal-backdrop" id="projectModal" aria-modal="true" role="dialog" aria-labelledby="modalTitle" hidden>
+      <div class="modal">
+        <button class="modal-close" id="modalClose" aria-label="Close case study">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        <div class="modal-inner" id="modalContent">
+          <!-- Content injected by JS -->
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ============================================================
+      CERTIFICATIONS SECTION
+      Treated as credential cards — each shows issuer, title, date, link.
+      Ordered newest → oldest.
+    ============================================================ -->
+    <section id="certifications" class="section certs-section" aria-labelledby="certs-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <p class="section-eyebrow">Verified credentials</p>
+          <h2 class="section-title" id="certs-heading">Certifications &amp; Achievements</h2>
+        </div>
+
+        <div class="certs-grid">
+
+          <div class="cert-card">
+            <div class="cert-card-top">
+              <div class="cert-image">
+                <img src="./assets/images/mspower-platform.png" alt="Microsoft Power Platform Fundamentals badge" loading="lazy">
+              </div>
+              <div class="cert-issuer-badge">Microsoft</div>
+            </div>
+            <div class="cert-card-body">
+              <p class="cert-date">January 2023</p>
+              <h3 class="cert-title">Microsoft Certified: Power Platform Fundamentals (PL-900)</h3>
+              <p class="cert-desc">Demonstrates expertise in Power Apps, Power Automate, Power BI, and Power Virtual Agents for business process automation and analytics.</p>
+              <a href="https://www.credly.com/badges/af4fe579-f8e5-46a4-9ba2-4103f9627e4c/public_url" target="_blank" rel="noopener noreferrer" class="cert-link">
+                Verify on Credly →
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-card-top">
+              <div class="cert-image">
+                <img src="./assets/images/advanced-data.png" alt="Bayan Academy Advanced Data Analytics certificate" loading="lazy">
+              </div>
+              <div class="cert-issuer-badge">Bayan Academy</div>
+            </div>
+            <div class="cert-card-body">
+              <p class="cert-date">January 2023</p>
+              <h3 class="cert-title">Advanced Data Analytics</h3>
+              <p class="cert-desc">15-day intensive covering advanced SQL, Orange Data Mining, and research methodology. Produced a published research paper on Philippine crime data.</p>
+              <a href="https://drive.google.com/file/d/14IHyHf8HeL2hEmb8VhZFaC2kQAeIBP_e/view?usp=share_link" target="_blank" rel="noopener noreferrer" class="cert-link">
+                Read Research Paper →
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-card-top">
+              <div class="cert-image">
+                <img src="./assets/images/refocus-cert.jpg" alt="Refocus Data Analytics certificate" loading="lazy">
+              </div>
+              <div class="cert-issuer-badge">Refocus</div>
+            </div>
+            <div class="cert-card-body">
+              <p class="cert-date">December 2022</p>
+              <h3 class="cert-title">Data Analytics Core Track Certificate</h3>
+              <p class="cert-desc">50+ hours of Excel, PostgreSQL, and Power BI instruction. 14 graded assignments. Group project: Elevating Yellavate.</p>
+              <a href="https://drive.google.com/file/d/1rDEOpb3HTpzX3xy_GAeYEDZX4K-T8Zkf/view?usp=share_link" target="_blank" rel="noopener noreferrer" class="cert-link">
+                View Certificate →
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-card-top">
+              <div class="cert-image">
+                <img src="./assets/images/pwc-certificate.jpg" alt="PwC Power BI certificate" loading="lazy">
+              </div>
+              <div class="cert-issuer-badge">PwC Switzerland</div>
+            </div>
+            <div class="cert-card-body">
+              <p class="cert-date">December 2022</p>
+              <h3 class="cert-title">Power BI in Data Analytics Virtual Case Experience</h3>
+              <p class="cert-desc">Built dashboards for call centre trends, churn analysis, and diversity & inclusion. Focused on advanced data cleaning and professional visualization.</p>
+              <a href="https://www.linkedin.com/feed/update/urn:li:activity:7007903274930515968/" target="_blank" rel="noopener noreferrer" class="cert-link">
+                View on LinkedIn →
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-card-top">
+              <div class="cert-image">
+                <img src="./assets/images/career-essentials.png" alt="Microsoft LinkedIn Career Essentials certificate" loading="lazy">
+              </div>
+              <div class="cert-issuer-badge">Microsoft &amp; LinkedIn</div>
+            </div>
+            <div class="cert-card-body">
+              <p class="cert-date">December 2022</p>
+              <h3 class="cert-title">Career Essentials in Data Analysis</h3>
+              <p class="cert-desc">Three-course program covering data analytics foundations, tools, and applied extension topics. Passed the final programme exam.</p>
+              <a href="https://www.linkedin.com/learning/certificates/c7a9e83acd36bcb149346a20ab7351d1f396eb32b3c8e33f8004121a4d533603" target="_blank" rel="noopener noreferrer" class="cert-link">
+                View Certificate →
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-card-top">
+              <div class="cert-image">
+                <img src="./assets/images/accenture.jpg" alt="Accenture Data Analytics Forage certificate" loading="lazy">
+              </div>
+              <div class="cert-issuer-badge">Accenture</div>
+            </div>
+            <div class="cert-card-body">
+              <p class="cert-date">December 2022</p>
+              <h3 class="cert-title">Data Analytics &amp; Visualization Virtual Experience</h3>
+              <p class="cert-desc">Simulated client engagement: cleaned datasets, performed analysis, and presented findings on Social Buzz content performance to a mock client board.</p>
+              <a href="https://www.linkedin.com/posts/neilangelomartinez_dataanalytics-visualization-forage-activity-7004327211897950208-lbxT" target="_blank" rel="noopener noreferrer" class="cert-link">
+                View on LinkedIn →
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-card-top">
+              <div class="cert-image">
+                <img src="./assets/images/it-support.jpg" alt="Google IT Automation with Python certificate" loading="lazy">
+              </div>
+              <div class="cert-issuer-badge">Google</div>
+            </div>
+            <div class="cert-card-body">
+              <p class="cert-date">December 2022</p>
+              <h3 class="cert-title">IT Automation with Python</h3>
+              <p class="cert-desc">Python scripting, Git version control, and automation fundamentals. Includes this portfolio site deployed via GitHub Pages.</p>
+              <a href="https://coursera.org/share/a1a70bd5acad5393167a89b97eecfe1d" target="_blank" rel="noopener noreferrer" class="cert-link">
+                Verify on Coursera →
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-card-top">
+              <div class="cert-image">
+                <img src="./assets/images/coursera_certificate.jpg" alt="Google Data Analytics Professional certificate" loading="lazy">
+              </div>
+              <div class="cert-issuer-badge">Google</div>
+            </div>
+            <div class="cert-card-body">
+              <p class="cert-date">November 2022</p>
+              <h3 class="cert-title">Google Data Analytics Professional Certificate</h3>
+              <p class="cert-desc">Eight-course programme covering the full analytics lifecycle: ask, prepare, process, analyse, share, act. Capstone: Cyclistic bike-share case study.</p>
+              <a href="https://coursera.org/share/057f842632af2a93575469021c10d1a5" target="_blank" rel="noopener noreferrer" class="cert-link">
+                Verify on Coursera →
+              </a>
+            </div>
+          </div>
+
+        </div><!-- /certs-grid -->
+
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      WORK EXPERIENCE SECTION
+      PLACEHOLDER — fill in your actual roles.
+      The QA background is a differentiator; make it prominent.
+    ============================================================ -->
+    <section id="experience" class="section experience-section" aria-labelledby="experience-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <p class="section-eyebrow">Professional history</p>
+          <h2 class="section-title" id="experience-heading">Work Experience</h2>
+        </div>
+
+        <div class="experience-timeline">
+
+          <!-- PLACEHOLDER: Add each role. Format shown below. -->
+
+          <div class="exp-item">
+            <div class="exp-marker">
+              <div class="exp-dot"></div>
+              <div class="exp-line"></div>
+            </div>
+            <div class="exp-body">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title"><!-- [PLACEHOLDER] Your Current Job Title --></h3>
+                  <p class="exp-company"><!-- [PLACEHOLDER] Company Name --></p>
+                </div>
+                <span class="exp-date"><!-- [PLACEHOLDER] Start – Present --></span>
+              </div>
+              <ul class="exp-bullets">
+                <!-- [PLACEHOLDER] Replace with 3-5 bullet points.
+                     Format: "[Action verb] [what you did] [resulting in X% improvement / $X saved / N faster]"
+                     Quantify wherever possible. -->
+                <li>Reduced manual QA reporting time by XX% by building automated Power BI dashboards connected to test management data.</li>
+                <li>Authored SQL queries to validate data integrity across production pipelines, catching X defects before release.</li>
+                <li><!-- [PLACEHOLDER] Add another achievement --></li>
+              </ul>
+              <div class="exp-tech">
+                <span class="tech-pill"><!-- [PLACEHOLDER] Tool 1 --></span>
+                <span class="tech-pill"><!-- [PLACEHOLDER] Tool 2 --></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-marker">
+              <div class="exp-dot"></div>
+              <div class="exp-line"></div>
+            </div>
+            <div class="exp-body">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title"><!-- [PLACEHOLDER] Previous Job Title --></h3>
+                  <p class="exp-company"><!-- [PLACEHOLDER] Company Name --></p>
+                </div>
+                <span class="exp-date"><!-- [PLACEHOLDER] Start – End --></span>
+              </div>
+              <ul class="exp-bullets">
+                <li><!-- [PLACEHOLDER] Achievement 1 --></li>
+                <li><!-- [PLACEHOLDER] Achievement 2 --></li>
+              </ul>
+            </div>
+          </div>
+
+        </div><!-- /experience-timeline -->
+
+        <p class="experience-note">
+          📄 <a href="https://drive.google.com/file/d/12D-ea9IYrqjMRQL-lxszCpNTBvrejV8t/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download full CV</a> for complete experience history.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      PLATFORMS / PROFILES SECTION
+      Where to find Neil's work across the web.
+    ============================================================ -->
+    <section class="section platforms-section" aria-labelledby="platforms-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <p class="section-eyebrow">Find my work</p>
+          <h2 class="section-title" id="platforms-heading">Platforms &amp; Profiles</h2>
+        </div>
+
+        <div class="platforms-grid">
+
+          <a href="https://bit.ly/neilmartinez-github" target="_blank" rel="noopener noreferrer" class="platform-card">
+            <svg class="platform-icon" viewBox="0 0 24 24" fill="currentColor" width="32" height="32"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            <h3 class="platform-name">GitHub</h3>
+            <p class="platform-desc">Source code &amp; repositories</p>
+          </a>
+
+          <a href="https://bit.ly/neilmartinez-novypro" target="_blank" rel="noopener noreferrer" class="platform-card">
+            <svg class="platform-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+            <h3 class="platform-name">NovyPro</h3>
+            <p class="platform-desc">Live Power BI dashboards</p>
+          </a>
+
+          <a href="https://bit.ly/neilmartinez-medium" target="_blank" rel="noopener noreferrer" class="platform-card">
+            <svg class="platform-icon" viewBox="0 0 24 24" fill="currentColor" width="32" height="32"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+            <h3 class="platform-name">Medium</h3>
+            <p class="platform-desc">Project write-ups &amp; articles</p>
+          </a>
+
+          <a href="https://www.kaggle.com/neilangelomartinez" target="_blank" rel="noopener noreferrer" class="platform-card">
+            <svg class="platform-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            <h3 class="platform-name">Kaggle</h3>
+            <p class="platform-desc">ML notebooks &amp; competitions</p>
+          </a>
+
+          <a href="https://bit.ly/neilmartinez-linkedin" target="_blank" rel="noopener noreferrer" class="platform-card">
+            <svg class="platform-icon" viewBox="0 0 24 24" fill="currentColor" width="32" height="32"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            <h3 class="platform-name">LinkedIn</h3>
+            <p class="platform-desc">Professional network &amp; updates</p>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      CONTACT SECTION
+    ============================================================ -->
+    <section id="contact" class="section contact-section" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-grid">
+
+          <div class="contact-text">
+            <p class="section-eyebrow">Let's talk</p>
+            <h2 class="section-title" id="contact-heading">Open to opportunities &amp; collaborations</h2>
+            <p>
+              Whether you have a data problem to solve, a role to fill, or just want to connect —
+              reach out. I typically respond within 24 hours.
+            </p>
+
+            <div class="contact-methods">
+              <a href="mailto:neilangelomartinez@gmail.com" class="contact-method">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                neilangelomartinez@gmail.com
+              </a>
+              <a href="https://bit.ly/neilmartinez-linkedin" target="_blank" rel="noopener noreferrer" class="contact-method">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+                linkedin.com/in/neilangelomartinez
+              </a>
+            </div>
+
+            <a href="https://drive.google.com/file/d/12D-ea9IYrqjMRQL-lxszCpNTBvrejV8t/view?usp=sharing"
+               target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV
+            </a>
+          </div>
+
+          <!-- Quick contact form -->
+          <div class="contact-form-wrap">
+            <h3 class="form-title">Send a message</h3>
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Your name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Jane Smith" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="jane@company.com" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="Data Analyst role enquiry">
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-input form-textarea" rows="5" placeholder="Hi Neil, I'm reaching out about…" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary form-submit">
+                Send Message
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+              <p class="form-note">Form sends via your default email client. Or email me directly above.</p>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ============================================================
+    FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <span class="logo-mark">NM</span>
+        <p class="footer-tagline">Data Analyst · BI Developer · Quality Engineer</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer-socials">
+        <a href="https://bit.ly/neilmartinez-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://bit.ly/neilmartinez-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+        </a>
+        <a href="https://bit.ly/neilmartinez-medium" target="_blank" rel="noopener noreferrer" aria-label="Medium">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+        </a>
+        <a href="mailto:neilangelomartinez@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+
+      <p class="footer-copy">
+        &copy; <span id="year"></span> Neil Angelo Martinez. Built with HTML, CSS &amp; JS. Hosted on GitHub Pages.
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" hidden>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+
+  <!-- Main JS -->
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
