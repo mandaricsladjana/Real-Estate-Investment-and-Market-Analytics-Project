@@ -1,0 +1,15 @@
+{
+	"name": "azuredatafactoryset",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "italynorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aefe37b5-eb6f-4e24-8ef4-0b48de3a37f7",
+		"tenantId": "a8fcd860-e1b7-4cbe-939b-c53e12dd0f40"
+	}
+}
