@@ -34,9 +34,7 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "UniqueID ",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "UniqueID ",
@@ -46,9 +44,7 @@
 							},
 							{
 								"source": {
-									"name": "ParcelID",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "ParcelID",
@@ -58,9 +54,7 @@
 							},
 							{
 								"source": {
-									"name": "LandUse",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "LandUse",
@@ -70,9 +64,7 @@
 							},
 							{
 								"source": {
-									"name": "SalePrice",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "SalePrice",
@@ -82,9 +74,7 @@
 							},
 							{
 								"source": {
-									"name": "LegalReference",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "LegalReference",
@@ -94,9 +84,7 @@
 							},
 							{
 								"source": {
-									"name": "SoldAsVacant",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "SoldAsVacant",
@@ -106,9 +94,7 @@
 							},
 							{
 								"source": {
-									"name": "OwnerName",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "OwnerName",
@@ -118,9 +104,7 @@
 							},
 							{
 								"source": {
-									"name": "Acreage",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "Acreage",
@@ -130,9 +114,7 @@
 							},
 							{
 								"source": {
-									"name": "TaxDistrict",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "TaxDistrict",
@@ -142,9 +124,7 @@
 							},
 							{
 								"source": {
-									"name": "LandValue",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "LandValue",
@@ -154,9 +134,7 @@
 							},
 							{
 								"source": {
-									"name": "BuildingValue",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "BuildingValue",
@@ -166,9 +144,7 @@
 							},
 							{
 								"source": {
-									"name": "TotalValue",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "TotalValue",
@@ -178,9 +154,7 @@
 							},
 							{
 								"source": {
-									"name": "YearBuilt",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "YearBuilt",
@@ -190,9 +164,7 @@
 							},
 							{
 								"source": {
-									"name": "Bedrooms",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "Bedrooms",
@@ -202,9 +174,7 @@
 							},
 							{
 								"source": {
-									"name": "FullBath",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "FullBath",
@@ -214,9 +184,7 @@
 							},
 							{
 								"source": {
-									"name": "HalfBath",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "HalfBath",
@@ -226,9 +194,7 @@
 							},
 							{
 								"source": {
-									"name": "SaleDate",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "SaleDateConverted",
@@ -238,9 +204,7 @@
 							},
 							{
 								"source": {
-									"name": "PropertyAddress",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "PropertyAddressSplit",
@@ -250,9 +214,7 @@
 							},
 							{
 								"source": {
-									"name": "OwnerAddress",
-									"type": "String",
-									"physicalType": "String"
+									"name": ""
 								},
 								"sink": {
 									"name": "OwnerAddressSplit",
