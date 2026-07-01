@@ -15,8 +15,271 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"enableStaging": false
-				}
+					"source": {
+						"type": "ExcelSource",
+						"storeSettings": {
+							"type": "AzureBlobStorageReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						}
+					},
+					"sink": {
+						"type": "AzureSqlSink",
+						"writeBehavior": "insert",
+						"sqlWriterUseTableLock": false
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "UniqueID ",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "UniqueID ",
+									"type": "Double",
+									"physicalType": "float"
+								}
+							},
+							{
+								"source": {
+									"name": "ParcelID",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "ParcelID",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "LandUse",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "LandUse",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "SalePrice",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "SalePrice",
+									"type": "Double",
+									"physicalType": "float"
+								}
+							},
+							{
+								"source": {
+									"name": "LegalReference",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "LegalReference",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "SoldAsVacant",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "SoldAsVacant",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "OwnerName",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "OwnerName",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Acreage",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Acreage",
+									"type": "Double",
+									"physicalType": "float"
+								}
+							},
+							{
+								"source": {
+									"name": "TaxDistrict",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "TaxDistrict",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "LandValue",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "LandValue",
+									"type": "Double",
+									"physicalType": "float"
+								}
+							},
+							{
+								"source": {
+									"name": "BuildingValue",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "BuildingValue",
+									"type": "Double",
+									"physicalType": "float"
+								}
+							},
+							{
+								"source": {
+									"name": "TotalValue",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "TotalValue",
+									"type": "Double",
+									"physicalType": "float"
+								}
+							},
+							{
+								"source": {
+									"name": "YearBuilt",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "YearBuilt",
+									"type": "Double",
+									"physicalType": "float"
+								}
+							},
+							{
+								"source": {
+									"name": "Bedrooms",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Bedrooms",
+									"type": "Double",
+									"physicalType": "float"
+								}
+							},
+							{
+								"source": {
+									"name": "FullBath",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "FullBath",
+									"type": "Double",
+									"physicalType": "float"
+								}
+							},
+							{
+								"source": {
+									"name": "HalfBath",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "HalfBath",
+									"type": "Double",
+									"physicalType": "float"
+								}
+							},
+							{
+								"source": {
+									"name": "SaleDate",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "SaleDateConverted",
+									"type": "Date",
+									"physicalType": "date"
+								}
+							},
+							{
+								"source": {
+									"name": "PropertyAddress",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "PropertyAddressSplit",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "OwnerAddress",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "OwnerAddressSplit",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							}
+						],
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "Excel1",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzureSqlTable1",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": []

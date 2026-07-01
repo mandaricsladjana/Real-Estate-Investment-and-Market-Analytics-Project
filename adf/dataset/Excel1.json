@@ -1,0 +1,98 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Nashville Housing Data for Data Cleaning.xlsx",
+				"container": "housingdatacontainer"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "UniqueID ",
+				"type": "String"
+			},
+			{
+				"name": "ParcelID",
+				"type": "String"
+			},
+			{
+				"name": "LandUse",
+				"type": "String"
+			},
+			{
+				"name": "PropertyAddress",
+				"type": "String"
+			},
+			{
+				"name": "SaleDate",
+				"type": "String"
+			},
+			{
+				"name": "SalePrice",
+				"type": "String"
+			},
+			{
+				"name": "LegalReference",
+				"type": "String"
+			},
+			{
+				"name": "SoldAsVacant",
+				"type": "String"
+			},
+			{
+				"name": "OwnerName",
+				"type": "String"
+			},
+			{
+				"name": "OwnerAddress",
+				"type": "String"
+			},
+			{
+				"name": "Acreage",
+				"type": "String"
+			},
+			{
+				"name": "TaxDistrict",
+				"type": "String"
+			},
+			{
+				"name": "LandValue",
+				"type": "String"
+			},
+			{
+				"name": "BuildingValue",
+				"type": "String"
+			},
+			{
+				"name": "TotalValue",
+				"type": "String"
+			},
+			{
+				"name": "YearBuilt",
+				"type": "String"
+			},
+			{
+				"name": "Bedrooms",
+				"type": "String"
+			},
+			{
+				"name": "FullBath",
+				"type": "String"
+			},
+			{
+				"name": "HalfBath",
+				"type": "String"
+			}
+		]
+	}
+}

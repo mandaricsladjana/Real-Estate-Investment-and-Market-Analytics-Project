@@ -1,0 +1,105 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "UniqueID",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "ParcelID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LandUse",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SalePrice",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "LegalReference",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SoldAsVacant",
+				"type": "nvarchar"
+			},
+			{
+				"name": "OwnerName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Acreage",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "TaxDistrict",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LandValue",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "BuildingValue",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "TotalValue",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "YearBuilt",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Bedrooms",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "FullBath",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "HalfBath",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "SaleDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "PropertyAddress",
+				"type": "nvarchar"
+			},
+			{
+				"name": "OwnerAddress",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Stg_HousingRaw_T"
+		}
+	}
+}
