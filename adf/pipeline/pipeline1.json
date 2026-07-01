@@ -34,17 +34,21 @@
 						"mappings": [
 							{
 								"source": {
-									"name": ""
+									"name": "UniqueID ",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "UniqueID ",
+									"name": "UniqueID",
 									"type": "Double",
 									"physicalType": "float"
 								}
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "ParcelID",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "ParcelID",
@@ -54,7 +58,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "LandUse",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "LandUse",
@@ -64,7 +70,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "SalePrice",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "SalePrice",
@@ -74,7 +82,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "LegalReference",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "LegalReference",
@@ -84,7 +94,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "SoldAsVacant",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "SoldAsVacant",
@@ -94,7 +106,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "OwnerName",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "OwnerName",
@@ -104,7 +118,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "Acreage",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "Acreage",
@@ -114,7 +130,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "TaxDistrict",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "TaxDistrict",
@@ -124,7 +142,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "LandValue",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "LandValue",
@@ -134,7 +154,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "BuildingValue",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "BuildingValue",
@@ -144,7 +166,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "TotalValue",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "TotalValue",
@@ -154,7 +178,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "YearBuilt",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "YearBuilt",
@@ -164,7 +190,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "Bedrooms",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "Bedrooms",
@@ -174,7 +202,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "FullBath",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "FullBath",
@@ -184,7 +214,9 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "HalfBath",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "HalfBath",
@@ -194,30 +226,36 @@
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "SaleDate",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "SaleDateConverted",
-									"type": "Date",
-									"physicalType": "date"
+									"name": "SaleDate",
+									"type": "DateTime",
+									"physicalType": "datetime"
 								}
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "PropertyAddress",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "PropertyAddressSplit",
+									"name": "PropertyAddress",
 									"type": "String",
 									"physicalType": "nvarchar"
 								}
 							},
 							{
 								"source": {
-									"name": ""
+									"name": "OwnerAddress",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "OwnerAddressSplit",
+									"name": "OwnerAddress",
 									"type": "String",
 									"physicalType": "nvarchar"
 								}
