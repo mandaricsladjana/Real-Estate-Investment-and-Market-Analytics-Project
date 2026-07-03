@@ -99,7 +99,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "Stg_HousingRaw"
+			"table": "Stg_HousingRaw_T"
 		}
 	}
 }
