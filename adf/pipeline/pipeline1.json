@@ -299,7 +299,15 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"method": "POST",
+					"url": "https://app.powerbi.com/groups/me/settings/datasets/bdf62f97-50eb-46e3-99df-e64ab5390a5f?experience=power-bi",
+					"authentication": {
+						"type": "MSI",
+						"resource": "https://analysis.windows.net/powerbi/api"
+					}
+				}
 			}
 		],
 		"annotations": []
