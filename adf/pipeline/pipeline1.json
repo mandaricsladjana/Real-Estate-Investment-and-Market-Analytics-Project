@@ -35,8 +35,7 @@
 							{
 								"source": {
 									"name": "UniqueID ",
-									"type": "String",
-									"physicalType": "String"
+									"type": "String"
 								},
 								"sink": {
 									"name": "UniqueID",
@@ -280,34 +279,6 @@
 						"type": "DatasetReference"
 					}
 				]
-			},
-			{
-				"name": "Web1",
-				"type": "WebActivity",
-				"dependsOn": [
-					{
-						"activity": "Copy data1",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"policy": {
-					"timeout": "0.12:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"method": "POST",
-					"url": "https://app.powerbi.com/groups/2c2bc8d3-2d34-4a5c-aa84-ac2f629e5996/settings/datasets/fb48cb17-9c00-4cf5-a047-8dbd2c775cde?experience=power-bi",
-					"authentication": {
-						"type": "MSI",
-						"resource": "https://app.powerbi.com/groups/2c2bc8d3-2d34-4a5c-aa84-ac2f629e5996/list?experience=power-bi"
-					}
-				}
 			}
 		],
 		"annotations": []
